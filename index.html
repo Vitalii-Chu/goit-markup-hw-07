@@ -16,24 +16,27 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <header class="page-header">
       <div class="container container--centered">
         <nav class="navigation">
           <a href="./index.html" class="logo"
-            >Web<span class="logo__header">Studio</span></a
+            >Web<span class="logo__header--text">Studio</span></a
           >
           <ul class="site-nav">
             <li class="site-nav__item">
-              <a href="/" class="site-nav__link  site-nav__link--current">Студія</a>
+              <a href="/" class="site-nav__link site-nav__link--current"
+                >Студія</a
+              >
             </li>
             <li class="site-nav__item">
               <a href="./portfolio.html" class="site-nav__link">Портфоліо</a>
             </li>
             <li class="site-nav__item">
-              <a href="#" class="site-nav__link">Контакти</a></li>
+              <a href="#" class="site-nav__link">Контакти</a>
+            </li>
           </ul>
         </nav>
         <ul class="auth-nav">
@@ -60,7 +63,9 @@
     <main>
       <section class="hero-section">
         <div class="container">
-          <h1 class="hero-section__tittle">Ефективні рішення для вашого бізнесу</h1>
+          <h1 class="hero-section__tittle">
+            Ефективні рішення для вашого бізнесу
+          </h1>
           <div class="hero-button">
             <button type="button" class="hero-button__primary" data-modal-open>
               Замовити послугу
@@ -75,11 +80,13 @@
           <ul class="advantage">
             <li class="advantage__item">
               <div class="advantage__icon">
-                <svg  width="70" height="70">
+                <svg width="70" height="70">
                   <use href="./images/icon.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="advantage__tittle text--padding-removed">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <h3 class="advantage__tittle text--padding-removed">
+                УВАГА ДО ДЕТАЛЕЙ
+              </h3>
               <p>
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
@@ -87,11 +94,13 @@
             </li>
             <li class="advantage__item">
               <div class="advantage__icon">
-                <svg  width="70" height="70">
+                <svg width="70" height="70">
                   <use href="./images/icon.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="advantage__tittle text--padding-removed">ПУНКТУАЛЬНІСТЬ</h3>
+              <h3 class="advantage__tittle text--padding-removed">
+                ПУНКТУАЛЬНІСТЬ
+              </h3>
               <p>
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
@@ -103,7 +112,9 @@
                   <use href="./images/icon.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="advantage__tittle text--padding-removed">ПЛАНУВАННЯ</h3>
+              <h3 class="advantage__tittle text--padding-removed">
+                ПЛАНУВАННЯ
+              </h3>
               <p>
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
@@ -114,7 +125,9 @@
                   <use href="./images/icon.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="advantage__tittle text--padding-removed">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <h3 class="advantage__tittle text--padding-removed">
+                СУЧАСНІ ТЕХНОЛОГІЇ
+              </h3>
               <p>
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
@@ -166,7 +179,9 @@
                 height="260"
               />
               <div class="content-wrapper">
-                <h3 class="content-wrapper__tittle text--padding-removed">Ігор Дем'яненко</h3>
+                <h3 class="content-wrapper__tittle text--padding-removed">
+                  Ігор Дем'яненко
+                </h3>
                 <p lang="en" class="content-wrapper__text">Product Designer</p>
                 <ul class="social">
                   <li class="social__list">
@@ -208,8 +223,12 @@
                 height="260"
               />
               <div class="content-wrapper">
-                <h3 class="content-wrapper__tittle text--padding-removed">Ольга Рєпіна</h3>
-                <p lang="en" class="content-wrapper__text">Frontend Developer</p>
+                <h3 class="content-wrapper__tittle text--padding-removed">
+                  Ольга Рєпіна
+                </h3>
+                <p lang="en" class="content-wrapper__text">
+                  Frontend Developer
+                </p>
                 <ul class="social">
                   <li class="social__list">
                     <a class="social__link" href="#"
@@ -250,7 +269,9 @@
                 height="260"
               />
               <div class="content-wrapper">
-                <h3 class="content-wrapper__tittle text--padding-removed">Микола Тарасов</h3>
+                <h3 class="content-wrapper__tittle text--padding-removed">
+                  Микола Тарасов
+                </h3>
                 <p lang="en" class="content-wrapper__text">Marketing</p>
                 <ul class="social">
                   <li class="social__list">
@@ -292,33 +313,35 @@
                 height="260"
               />
               <div class="content-wrapper">
-                <h3 class="content-wrapper__tittle text--padding-removed">Михайло Єрмаков</h3>
+                <h3 class="content-wrapper__tittle text--padding-removed">
+                  Михайло Єрмаков
+                </h3>
                 <p lang="en" class="content-wrapper__text">UI Designer</p>
                 <ul class="social">
-                  <li class="social-list">
-                    <a class="social-link" href="#"
-                      ><svg class="social-icon" width="20" height="20">
+                  <li class="social__list">
+                    <a class="social__link" href="#"
+                      ><svg class="social__icon" width="20" height="20">
                         <use href="./images/icon.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-list">
-                    <a class="social-link" href="#"
-                      ><svg class="social-icon" width="20" height="20">
+                  <li class="social__list">
+                    <a class="social__link" href="#"
+                      ><svg class="social__icon" width="20" height="20">
                         <use href="./images/icon.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-list">
-                    <a class="social-link" href="#"
-                      ><svg class="social-icon" width="20" height="20">
+                  <li class="social__list">
+                    <a class="social__link" href="#"
+                      ><svg class="social__icon" width="20" height="20">
                         <use href="./images/icon.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-list">
-                    <a class="social-link" href="#"
-                      ><svg class="social-icon" width="20" height="20">
+                  <li class="social__list">
+                    <a class="social__link" href="#"
+                      ><svg class="social__icon" width="20" height="20">
                         <use href="./images/icon.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -391,7 +414,9 @@
             <p class="footer-address__text">м. Київ, пр-т Лесі Українки, 26</p>
             <ul class="contacts-list">
               <li class="contacts-list__item">
-                <a href="mailto:mailto:info@devstudio.com" class="contacts-list__link"
+                <a
+                  href="mailto:mailto:info@devstudio.com"
+                  class="contacts-list__link"
                   >info@devstudio.com</a
                 >
               </li>
@@ -462,7 +487,7 @@
       </div>
     </footer>
     <!-- Modal -->
-    <div class="backdrop  backdrop--is-hidden" data-modal>
+    <div class="backdrop backdrop--is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal__close-button" data-modal-close>
           <svg width="18" height="18">
@@ -471,7 +496,9 @@
         </button>
         <!-- form -->
         <form class="contact-form">
-          <p class=" contact-form__text">Залиште свої дані, ми вам передзвонимо</p>
+          <p class="contact-form__text">
+            Залиште свої дані, ми вам передзвонимо
+          </p>
           <label for="user_name">
             <span class="contact-form__tittle">Ім'я</span></label
           >
@@ -529,7 +556,7 @@
           <div class="checkbox-wrapper">
             <input
               id="policy-checkbox"
-              class="checkbox-wrapper__form visibility-hidden" 
+              class="checkbox-wrapper__form visibility-hidden"
               type="checkbox"
               name="accept_policy"
               required
@@ -537,11 +564,15 @@
             <label for="policy-checkbox" class="checkbox-wrapper__description">
               <span
                 >огоджуюся з розсилкою та приймаю
-                <a href="#" class="checkbox-wrapper__policy-link">Умови договору</a>
+                <a href="#" class="checkbox-wrapper__policy-link"
+                  >Умови договору</a
+                >
               </span>
             </label>
           </div>
-          <button class="checkbox-wrapper__button-form" type="submit">Відправити</button>
+          <button class="checkbox-wrapper__button-form" type="submit">
+            Відправити
+          </button>
         </form>
       </div>
     </div>
